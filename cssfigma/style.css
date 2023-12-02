@@ -1,0 +1,353 @@
+/* font-family: 'Cormorant Garamond', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* ===================================================
+==============GLOBAL CSS START ====================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Poppins', sans-serif ;
+    font-size: 16px;
+}
+
+a, a:hover{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Poppins', sans-serif ;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* ===================================================
+==============GLOBAL CSS END====================== */
+
+/* ===================================================
+==============HEADER SECTION START====================== */
+.header-section{
+    width: 100%;
+    background: #F0FFF0;
+    padding: 20px 0px;
+}
+
+.header-section .navbar{
+    display: flex;
+    align-items: center;
+}
+
+.header-section .navbar .logo{
+    flex-basis: 15%;
+}
+
+.header-section .navbar .logo img{
+    width: 100%;
+    height: auto;
+}
+
+.header-section .navbar .nav{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-section .navbar .nav ul{
+    margin-top: -11px;
+}
+
+.header-section .navbar .nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+
+.header-section .navbar .btn{
+    flex-basis: 15%;
+    /* display: flex; */
+    /* margin-bottom: 11px; */
+    /* justify-content: center; */
+    
+
+}
+
+.header-section .navbar .btn a{
+    background: #21B573;
+    color: white;
+    padding: 12px 28px;
+    border: 1px solid #21B573;
+    border-radius: 33px;
+}
+/* ===================================================
+==============HEADER SECTION END====================== */
+
+/* ===================================================
+============== BANNER SECTION START====================== */
+.banner{
+    width: 100%;
+    background: #F0FFF0;
+}
+
+.banner .banner-inner{
+    display: flex;
+}
+
+.banner .banner-inner .content{
+    flex-basis: 50%;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.banner .banner-inner .content span{
+    color: #FD511A;
+}
+
+.banner .banner-inner .content h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner .banner-inner .content h1 span{
+    color: #21B573;
+}
+
+.banner .banner-inner .content p{
+    line-height: 36px;
+    margin-top: 20px;
+}
+
+.banner .banner-inner .content .banner-btn {
+    margin-top: 45px;
+}
+
+.banner .banner-inner .content .banner-btn a{
+    background: #21B573;
+    color: white;
+    padding: 12px 28px;
+    border: 1px solid black;
+    border-radius: 33px;
+}
+
+.banner .banner-inner .image{
+    flex-basis: 50%;
+}
+
+.banner .banner-inner .image img{
+    width: 100%;
+    height: auto;
+}
+/* ===================================================
+============== BANNER SECTION END====================== */
+
+/* ===================================================
+============== FEATURE SECTION START====================== */
+.feature{
+    width: 100%;
+    padding: 50px;
+}
+
+.feature .feature-inner{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.feature .feature-inner .fbox{
+    border-radius: 10px;
+    padding: 50px;
+    transition: .6s;
+}
+.feature .feature-inner .fbox:hover{
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,.10);
+    transition: .6s;
+}
+
+.feature .feature-inner .fbox img{
+    width: 66px;
+    height: 85px;
+}
+
+
+/* ===================================================
+============== FEATURE SECTION END====================== */
+
+/* ===================================================
+============== COURSES SECTION START====================== */
+.courses{
+    width: 100%;
+    padding: 50px 0px;
+}
+
+.courses .title h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.courses .courses-inner{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 36px;
+}
+
+.course-card{
+    box-shadow: 0px 20px 40px 0px rgba(0,0,0,.10);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 0px 10px;
+    width: 370px;
+
+}
+.course-card p{
+    margin: 20px 0px;
+}
+
+.course-card img{
+    height: 234px;
+    width: 331px;
+}
+
+.course-card .course-btn a{
+    background: #21B573;
+    color: white;
+    padding: 12px 28px;
+    border: 1px solid black;
+    border-radius: 33px;
+}
+.course-footer .left{
+    margin-right: 64px;
+}
+
+.course-footer{
+    display: flex;
+    margin-top: 40px;
+}
+
+.course-footer .left img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.course-footer .left span{
+
+}
+
+.course-footer .right{
+
+}
+
+.course-footer .right img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.course-footer .right span{
+
+}
+/* ===================================================
+============== COURSES SECTION END====================== */
+
+/* ===================================================
+============== TESTIMONIAL SECTION START====================== */
+.testimonial{
+    
+}
+.testimonial .test-header{
+
+}
+.testimonial .test-header h2{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+.testimonial{
+
+}
+.testimonial .test-header h2{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.test-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 170px;
+}
+
+.test-inner img{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+.test-inner p{
+    width: 52%;
+    height: auto;
+    margin-left: 25px
+}
+
+
+
+/* ===================================================
+============== TESTIMONIAL SECTION END====================== */
+
+/* ===================================================
+============== FOOTER  SECTION START====================== */
+.footer {
+    background:#282531;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .content .vision {
+    flex-basis: 33%;
+}
+
+.footer .content .vision p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.footer-menu h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.menu-list li {
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu-list li a {
+    color: #fff;
+}
+
+.footer-bottom {
+    margin-top: 90px;
+}
+
+/* ===================================================
+============== FOOTER  SECTION END====================== */
